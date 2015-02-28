@@ -57,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
 
         EditText editText2 = (EditText) findViewById(R.id.message3);
         String message3 = editText2.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, "Dear" + message + ",\n" + "I see that your favorite color is" + message2 + ",\n" + "And also you like to eat" + message3 + "too much.");
+        intent.putExtra(EXTRA_MESSAGE, "Dear"+ " " + message + ",\n" + "I see that your favorite color is"+ " " + message2 + ",\n" + "And also you like to eat" + " " + message3 + " too much.");
 
 
 

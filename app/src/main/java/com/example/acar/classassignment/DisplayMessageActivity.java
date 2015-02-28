@@ -19,7 +19,7 @@ public class DisplayMessageActivity extends ActionBarActivity {
         textView.setTextSize(20);
         textView.setText(message);
         setContentView(textView);
-        
+
 
     }
 
